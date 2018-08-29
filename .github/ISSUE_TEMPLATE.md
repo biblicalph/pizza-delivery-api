@@ -1,10 +1,10 @@
-# Checklist
-[ ] Add the necessary labels
+## Checklist
+- [ ] Add the necessary labels
 
-## Issue Summary
+#### Issue Summary
 
-## Issue Description
+#### Issue Description
 
-## Steps to Reproduce Bug (if issue is a bug)
+#### Steps to Reproduce Bug (if issue is a bug)
 
-## Screenshots and Any Additional Notes
+#### Screenshots and Any Additional Notes
