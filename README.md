@@ -1,6 +1,6 @@
 # pizza-delivery-api
 This project is my second homework assignment for Pirple's mastering NodeJS course. The assignment focuses on building a restful API with raw NodeJS - no external libraries or frameworks.
-This project therefore has no `package.json` file 
+This project therefore has no `package.json` file. In addition, we'll not be using an actual database but will instead use the filesystem class to implement a simple database.
 
 ## The Assignment
 You are building the API for a pizza-delivery company. Don't worry about a frontend, just build the API. Here's the spec from your project manager: 
