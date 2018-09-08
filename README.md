@@ -18,3 +18,6 @@ You are building the API for a pizza-delivery company. Don't worry about a front
 6. When an order is placed, you should email the user a receipt. You should integrate with the sandbox of Mailgun.com for this. Note: Every Mailgun account comes with a sandbox email account domain (whatever@sandbox123.mailgun.org) that you can send from by default. So, there's no need to setup any DNS for your domain for this task [Mailgun Docs](https://documentation.mailgun.com/en/latest/faqs.html#how-do-i-pick-a-domain-name-for-my-mailgun-account)
 
 This is an open-ended assignment. You may take any direction you'd like to go with it, as long as your project includes the requirements. It can include anything else you wish as well. 
+
+## Project Update
+1. Implemented file-system based database layer -issue #8. See PR #21 for implementation notes or to check out the source code
