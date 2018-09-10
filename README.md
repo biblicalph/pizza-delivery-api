@@ -20,4 +20,4 @@ You are building the API for a pizza-delivery company. Don't worry about a front
 This is an open-ended assignment. You may take any direction you'd like to go with it, as long as your project includes the requirements. It can include anything else you wish as well. 
 
 ## Project Update
-1. Implemented file-system based database layer - [issue #8](https://github.com/biblicalph/pizza-delivery-api/issues/8). See [PR #21](https://github.com/biblicalph/pizza-delivery-api/pull/21) for implementation notes or to check out the source code
+1. Implemented file-system based database layer - [issue #8](https://github.com/biblicalph/pizza-delivery-api/issues/8). See [PR #21](https://github.com/biblicalph/pizza-delivery-api/pull/21) and [PR #22](https://github.com/biblicalph/pizza-delivery-api/pull/22). `PR #22` fixes a bug in `PR #21` for implementation notes or to check out the source code
