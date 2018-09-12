@@ -21,3 +21,17 @@ This is an open-ended assignment. You may take any direction you'd like to go wi
 
 ## Project Update
 1. Implemented file-system based database layer - [issue #8](https://github.com/biblicalph/pizza-delivery-api/issues/8). See [PR #21](https://github.com/biblicalph/pizza-delivery-api/pull/21) and [PR #22](https://github.com/biblicalph/pizza-delivery-api/pull/22). `PR #22` fixes a bug in `PR #21` for implementation notes or to check out the source code
+2. Completed implementation of a [joi](https://github.com/hapijs/joi)-like validation module named `hop` (pronounced hope). `hop` currently supports string and number validation. Additional types can be added as needed. See tests in `lib/hop` for string and number implementations and usage. Example usage:
+```javascript
+'use strict'
+
+const hop = require('./lib/hop')
+
+const dataToValidate = ' something'
+const schema = hop.string().trim().required().email()
+
+const {error, value} = hop.validate(data, schema)
+```
+
+See [PR #25](https://github.com/biblicalph/pizza-delivery-api/issues/25) for implementation notes and source code
+
