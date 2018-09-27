@@ -34,4 +34,16 @@ const {error, value} = hop.validate(data, schema)
 ```
 
 See [PR #25](https://github.com/biblicalph/pizza-delivery-api/issues/25) for implementation notes and source code
+3. Implemented a module for creating errors for the application. [issue #26](https://github.com/biblicalph/pizza-delivery-api/issues/26) and [PR #27](https://github.com/biblicalph/pizza-delivery-api/pull/27). Usage
+```javascript
+'use strict' 
+
+const { customError } = require('./lib/error')
+
+const userNotFoundError = customError({ name: 'UserNotFoundError', message: 'User was not found' })
+
+throw userNotFoundError
+```
+4. Update `hop` module to default to optional validation if required rule is not specified. See [issue #28](https://github.com/biblicalph/pizza-delivery-api/issues/28) and [PR #29](https://github.com/biblicalph/pizza-delivery-api/pull/29)
+5. Implement user model. The `create` and `update` methods provide validation using `hop`. See [issue #9]((https://github.com/biblicalph/pizza-delivery-api/issues/9) and [PR #30](https://github.com/biblicalph/pizza-delivery-api/pull/30)
 
